@@ -1,0 +1,608 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    background-color: red;
+    height: 110px;
+}
+span{
+    width: 30%;
+    background-color: green;
+    height: 110px;
+    float: left;
+}
+#Image-0{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px dashed blue;
+}
+#P-0{
+    float: right;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-style: italic;
+    line-height: 110px;
+}
+a{
+    text-decoration: none;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+    display: inline-block;
+    line-height: 110px;
+    display: inline-block;
+    width: 100px;
+}
+nav{
+    width: 100%;
+    background-color: black;
+    height: 110px;
+    text-align: center;
+}
+li{
+    display: inline-block;
+}
+main{
+    width: 70%;
+    background-color: brown;
+    height:637px;
+    position: relative;
+    float: right;
+}
+article{
+    width: 450px;
+    height: 450px;
+    background-color:red;
+    position: relative;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    border-radius: 10% 15%;
+}
+div{
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:medium;
+    font-style: italic;
+    position: absolute;
+    top: 18%;
+    line-height:60px;
+    text-align: center;
+}
+aside{
+    width: 30%;
+    height: 637px;
+    position: relative;
+}
+#Image-1{
+    width: 100%;
+    height:305px;
+}
+aside h1{
+    width: 100%;
+    background-color:transparent;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAzAMBIgACEQEDEQH/xAAbAAACAgMBAAAAAAAAAAAAAAAEBQMGAAECB//EAD8QAAIBAwMBBgMGAwcCBwAAAAECAwAEEQUSITETIkFRYXEGgZEUMkJSocEjM7EVFmJy0eHwY4IkQ0RTc5Ki/8QAGgEAAwEBAQEAAAAAAAAAAAAAAQIDBAAFBv/EACoRAAIBAwMDBQABBQAAAAAAAAABAgMRIQQSMRNBUQUUIjJhoRVCYnGR/9oADAMBAAIRAxEAPwDznUoEjXfHnjPHlS5Lh1PdbbXoLafHMu1kz64pBqPwq0e54ZowOvfOK2t5uNsONHlNygDuGIFOUts4wCaorRtGxXOSDg4PFH2GrXFkpUd9fJmOBTRqAcC4paZ8KnSzyaqX9vao57RZAozwoUYFOtM+I7uTie0WQAd5lfBo9RHKA6+wnFbWyCDkDFG6bMl9bCaJGUH8Ldf0os27HjbS9Rj7F4ErWqeVRG1QeFN7mMW+e1BX5E0hutchicrHbTOAcFiAKZVY+QOjLwSm2QHpUbQLu5GR4iuYNYtpnCmGWPJxk4o55bUcGaP602+IvTkgKWGM/cz86gNvTZY45ACjowPka7jRYt2+MODxg1znZYDscnnAkaAr4c1CV86syPGO7JAMH8qiop7CyILITnyYcVn9xJPKNHtYNfGWSuYY91VJ9hWCLzpsq9gx2AEf1rF7POWiTPlzirqbeTPKEVgDtG7Anuo4PUMua6na2kB224iPmpoqYRt0hVT/AITQxi3cDFdtjJ7md1JRW1MXyRgHuk4qBkxR8kRBIOKgdPSnUlwTlF9wQrXLJgZNTuhHoK42xn7xH1ptwm0XTYJocgZ60xmtQx/hsDQhtHzSO4bBovbxhte7n2+QcijbTSmv+6lwWc+DsacR6TbXPcmjWJvAoxNdR/Dd3ZSdpZXIb0yVNeTKs3wz240VF5V0VzUPhnULPvPAWTPVRS42hzjs+fI16BDbTs+29+0A+DJK1OLf4c0+5H8QyPxyXXkfOpvVuPJX2kGr8Hk7W8udpQr6UbZWMsjqoypJxzXqy/CGnoo/hl/Qn96JGh6csSozDCnIDJn9RSPXY4EWlgu4P8L/AA9c2GmrFdMpJOQgH3QabnTMfhqW1aNFx9pBI4GWNTx3jMSDInoezNItYJKhnAAbB8YAOPU0Lc6FazjMsMa/4sDmpdU/tFz/AOD1VE45XYF5+lILm11O6xFdzJcnPdbtANv0putGRSFKS4ZPc/CETMGgZV55DDipT8L2SxhZYgX8TnrTPRNK+w24EskoZuCu/cpqe80WC5Pe7X/7UqqLyc3m2BAvw/bQj+HbIcc5NStYMVGYlHkNuKZQ6JFbyB1e6bH4TKcURJjONhFVVWxNxfBXL2FYIDJKAqJ1IFJ5byzbGJAM+YxVvvbWO6TspELL6NjNVrVNAuCG+yKrc/dYYYVajXV7MSpSxcBOxuVZSD0xUbBenjUtl8M3zvmZWjA5zmncegxwp1Z2PVjWtaiPBjdF8ld2VsRN5VYH0xV86jNiB0zT9ZMm6bRX57TfyeKBlgWLkynHtVrayJB4pfrE1ra25jdAWA6Cp1K1sI0UaLndsq8kycjkig7iWP8AAv1Fc3d27O2xNo9qHE7sMPzVIyZKduDbTH8JIrntm864auKruMzR7LFAzDmJT7iiobUZyVUVR7b41vdgWZIdw/Hs/bOK3Jrc97kvcMw8gcfpXmezk+56T10V2PRIrcflUijI0247orzGDVZ4BmOaRB/mprZ/EVyuBOSy5xkcEUr0L8gWuvhnokZA4Irv7PbyHvxgmqzZX7XAzBMxx1HiKaQ3Fx0LtUJaOQfcpjMadaNxsx7GsOlQY7rOPnQsUknXn61P9plHJYketReikF6j/Igl0cZ7sgx61xHo0KtliDjmp3vpMYAX5VBJqEoH3gop4aCbA9e0rXC0twOFyR5ZqTvAc0jmv5TktMQPShZr5ieZGPu1aI+nvyZ5a9eCyM+Bk8VAZIpOCVb2NVeXUHHBkbHvQ0moFTntmz71Zem/pP8AqFuxa5ra3kjaNlwp684P1oATaZYN2SyOueMEs2PrVal1aU9JmoFtRbJO7nzNXp+mu2WLP1FvhF/WW2kYhJ4mOM8NUVzJb24zK4II4A5NUFtUnxgOPpXDancHrJTr0135wL/UHbgu0VxbXGeyBJ9uTXLqrdImHoRiqT/akq9Nmfbmuhr14owJT9aL9Pkvqwx1yf2RZry4trc7J2AZh064qu6ta9se4A0eOCoBoGXUmkOXCkk5z41pNSeM5Tjz560X6c8PuUh6k4rbbAJcaa4TO3PpQLaawXIh58qetrJI70Yod9UYkbVwM8+tNHSTiGproS7CR7Fh1THyqA2Zz90/SrCdTQ9Yc1EdQjz/ACB9abozRH3EJciEWzH+XIjfOoJpLm3j7QxuGVhjaM5GfSicIvW3uV9c5H9K6UQs335FPlXlx1U1yO6a7AV5qMphu7dnPIUr4HHjTaDW1GkrK0ZMqIp4P3sdans7eyY7poRMMYPOKYPomlXcOxbeW3RhyY2P9DXP1CC5R3QbRMmt2lulvPG52yuBwcEAgnNXbS9YmUK29Z0IyNwB49DXn5+C1ureOGx1RDszsWVOfbj/AEqSLRfiLRBxskTGMo/Qexrve0ZO1xvbyseqLqyOOYQp9CR+1FRXulH+fN2JxnDnNeUjUtRhgLzSSxtjkP4GgrP4omit4VuIVkxwWJOevX6VbdF8MXpyPVNQ1zR4EbsA9w/gFG0fU0jf4jtzu3WeDjjEmearC61bzlP4JJYbhg+ArZurVznLI3kRWiCXklP/AEOxqpc7hGhU9QOtF272l2AFnSNz+GU7f16VV90S95Z1H/dRMThuH2vnxVquvwzSLLPoF2RkIGHoRSu40i8TI7FvpmiNNuruxJNlcyRg9VIyv06VYLfWtQbBnjt5l9Fwf0rupOIqjFlHm026X70T/ShW0+5zjsnz7V6kl/bSjEltsc/MVFNptpdfflYjyHAplqmuUHo+GeUywtEf4mVPrQ7S4OAGPyr1R/hexfkID6mhpPhO0PQAU61cAdGR5e8z+EeD51ETIeqj6V6a3wpajwFcf3VtfKm91AHTkeZ7HPh+tYFkH4DXpv8Ada0HeYgAdc0rvX+GdPOy4u1lcHlIRvx9K5V0+A7JdykKrnqrfStEHyx8qfXfxHo0WRZ6XLN5GWQIP0yaRX2uz3JPZRQWyeCxDJ+ZOc1RVPwXacFTjgE/KtYXxcD5UC91O5yZnz712jOygl2J96DmMkcNGIQWEzbD+JTyP9akWOZl3RT9uv8Ah6j5UTDpsmQUl3+W4fvRIsZ0YF4OfBomya+VnXg+D00gGE3f3YlDH8pXBqaHUJoDtIaNvxA8UetmztkOVk89pB/3qY27LGU7OG4byOFYfpmhGdOTsx7NGWWutEQJoEdfNeKsFp8RW7IAJCAR9xxkVTGCxSbJYVz6d0/KiYFtZW2iTn/LyKlUoQbvYpGpJFtlnsrsEEqrHkjGVNKb34esbld0SlGPjC37Ggltp9waCRZB4ANg1Kl3LHw0Z3DqVNLFSh9Wc5LuLxodzbTRmGeORVzlZMo2D6VpEuIZ7hZonEe7cr448OM08S+imXZ3wfI4rREBG637RJB1B4zWqnqpx+xGUUxQwBGRjFR7Cv3TimVyHHektO1A4Djg0rk7RJMRzHb/AO3Mu2t9LVxkQlTCrfVL212mKdsAYw3I+lGJ8UaogCiWPA/6QyaWM7bMyQMP8vIqKZliVGYEB2CgnwrXGrB9zPKDLfpvxbHJ3b+MRsekkYyp9x4U+s9atJztt7iN2/LnmvH7e8C6ncwzOFjJ7pP4SKYEhmO1uQ2OvOetMkpIS1j2q0u92OcDFEm6V2IXmvFrfU7+0wILuZABjAPFGL8T6x3c3O4DwKipui74KKrZHqd1qEECkySqCPCq7f8AxNINyWsYH+LqarEXxOZ02XcZU/nXkfStW0sd9MVt5e9jOOhp401HkWU2+AfVNRvb0lbiaV1J+6Tx9KUSRLjkU21AbTsUnC+dKpVJzzWhS8EmmByhEzjqaHc+GKNa0nK7uycjzxXbaPdtbCYhUB6I57xrtwUhUTjmtdqR0J+tFy6TfoFb7OzBum3vZp9pXwNLeWST3V61tI3/AJRi3ED3oOQ9jcUcxbLgsPPd3ql+0OnSeRT5SLmobIXMj90MzEHjHXHtXSXzIzIYGUDhg6AHNfP9ChNcns3XdB8N7ziVFc/mXu5ruSe0mADBl29AWK0LHdwt3pYgqbeTjHTwzRamIqrcFSMjeM4qUtBBv4yKKmmjcFvC5AaQOp6qxGDXF/pFsV3qrqOgI5wf9PnUghtmbIeH0UCp4oYkbKOgbHRDj+hoLRVU/jIPQuuSt3Fpe22JrYM8aniSHn+lF2GuRXI7G+tlLA95o+CPXHhT7ZhdyujZ54Pj9KAuLeG/708Kbx0faAwHlkfvTTo1WrTX/CctPNcHcthb3Cl7WYYrlNMkJCrIYhkBiRkD1oaKxED4imdX8z3R/wA+VGLJLtCnZu9OD9RWZxrR4RN0pd0cS9vE+yMRgLxuaQ5Pr0xXDwySrh1ix5DJoiSe67PDBSfI5INLpJpgchZEx4qMj9R+9cnPurE5RsRvZLG24Q9PykiuJbeCVNrRtjrgn98/tUqzytwZRz4SK39Q37V2PJ4y3/xSgj/9YqsZyXcm4iu60SzuWL4KsfFGwT71G2lLDN2zSyg7t3PTOMU1MQZsDtMH8w6ftWGNI4JgruJDx3xw3oPWtMK0+Lk3C4nnXcCEuQjeZFQ3NwYWALxyY6tGSQf0ox4VBHaCMn1YVwdPSYsUh58wR/rWiOoknkm6dwZLyGRgOQD4kYqVXVGDxTBWU5BB6UPLpF1z2aNn/L/vUH9mXI4dSD6CtHurLIrotBun6vJcXE6XQ3LuLB8cgH9qMwrxmTjGMnnpSQ2FymcTBfkc0LLFcWoObjun8CknPyox1K8g6bZZbrVbeGFoDO7TqB3FHH1pLNrt3INrMSgIwuaVJFdSsxitZXcnO7BP+1EJpOpyf+n2Z67iBT9fA6otja3+LLy2IEcUeB4eFT/351LjEcQ+VI5LF4mEbvFvPXD5xXDWoU47SM/99L7gPSaLo93ZqytbwydqOMxNtAPoPPFTWMxupB2mnPMeA0k5PTHXceh6UqmvtGtv5Bu5izd3axREPz5P0p3HqOkR2j9rZwgMAd0szyFmxj7hOPrxWelpryyexfczi6+zLbrsjtHEXdYsxZmJ/KfDFD38NtLGj9syOq47Nt3zHlxmohqVi1wZI5bVYPwQ/Z+QfM9BWNaXV9uliZZlj3FFjiK5+tCvQe5uKHmltbWScaLdR2iKZ4uzPIDEKR5DI8ayMW4fuSEse6xLZwPA0ie+u+yLXCybYhnvgrx4D9atWjQaJHaWvaH7RcSx7nALLt6d0eXgDWfbJ8YJ01vfx/k39qt7VAsuGYZwQ5z18ea4tdVXD5BA44x40BJc2Ws3bRbVsvsxdmdIQAecKDXF7oUkEJlXVgWA3rGsOS3680XTqyV0wzVbmOUNkvraUOrygNnG0Dofeu7mFexj2L3z5MAAP+GqZc2mo2aFriN4DJho2aUHPAyP1rnTtUupB2Sdq4RtrhFJz7kUq6kSMdS07TRZHvZrbmW2wucE7cg1Hdao0AM0tnIUYcPHnA+hqO11cwvv2Fjt7xwSoHhkfOuoh285msLqWJiwVUHKMfMip9WV8i1Jyvhs3pV9BfO0ent2koXeYZRgt7ZoOX4hki3I2nbJFPeRhg02S8vbq/RNQS3i2ZMd0ihOfIYGefy10iQ3F6n9qRxSd7+Yij9ulO6ln+E91QVW+qyXSj7LYXDPjkKMgUWBqBx29oIVxx2rgfpzVp1fJ09ZdCkU2ycOsK4bPjnHNUy81OKItKEfftOBJng+gNdNxbwjtz7jKKzcoTJNCr+UYziijaoyAvd7D0JU7QflVdTUZJSywQ7mXDNztVc/1ou3tZXRppjboF6KXLZPtmu6sI9h1Wpr+0Zyaba9TMzEf9TrXD6dE0Z2NjPAIbnNLpb63ijZVCkRnnr4+3vQMt9auD9nRlyAxJJOT6eQ9KbqwkuCrrUmrWDbjS5A4jhdOOrSSAVAmjzupImtw3qxNY+o207gSKu7zIwBUy6ha9ke0LQpJkKUOc0FsuPGlRk8Ay6bcwgh3G0E8xPUBhQFi69opOO+5FMra9jmlALYBG1c5PHnj96Fur60ilMbrGxyRyuR8j1qqcUNKnCMboWTxxPnsbbAHB2ZyPnQxtJVOGgOfU4p8L0A9nPGkKr3QxJPPtj9qhkvLYudphPqRnNFqLISpRfcrLXTu69o+7ac+YqWK+dGAEneUHvOc8eQFGx6Kv2qUpcbLPOI5ZBgyD9qKe106zZljiVpAMgnJ+Z9KupOEg0dJWknNuyCNGvbNEjZ2iZnJ3lwBgegx19anM+oXMipaPIYix2gDII8sCq1pEliJZZb9WkCt3FDY2/IUzuviYpbxwaQr2e3Jba3JHua0ua23HhWjGN5DSf4pit2ED6dE0oTs2llGWJ6Z8hSOSS6EBEe8J97jwI658ulKo5ZmuElRWkbqcDdz40VfTTlBHLuXIJKsMYNZJyjJ5ITrSqLc/4CLN7xZSlvls8yBCGBAP4vCurm+u0vFFyzKAe6RjcAcdKl0rT5LyKCOwuglxcBhLGDhVQHktzz4eFMviT4dSz0yG4gmjkeHiUCTAAPTAPJ5/rQUltwNGFVU3JPg1Z2V5rVtFc3N7BBBFIVHa8bm4BJ9uPeulujo+o3EdoeyVsbwj5DEeJNJNNvYo02naoZstLjcwAwePnXdpaX+oPcS2Vq9wnalNy4xu64+lRf4Mqi2qSV5FttLyHTrKZYtSVpXYyFVTO5vBcnw4oAks5jsmnbLM8jBSwXnwA8MVXhNLbyNFcoVmiYb0I6H1p7dfE07II4VW3OQSY+MjHjU5K6sx/cU6sLSxYNgnJ09LwTKH3FChYZx546jx5qO3uIn7YtMYnXvAHu9pnywKV21xBPNcds2H7MsrL+Y9M+lZJdlLcRzbRLj3wKg4szTr4Hek60lm7vBO0Lldw3HuseMj1pzG+ma6gW6jVJ25Ljuhj715/ZiSadYiCIuSnmPTnzq02DLGFURMCPAjj9KvTpvkRTvyT33w3DavsYM8KtnKHg+9Kr2Ce1SSRIMx7docPk49qutrcvcWwjkWMnpil19Yz7WcLhT45zgUXBPkZxXYoMXPYwzgsmSZFBwPmaKP2NN21z2Y6Y6eHj40fq2jJLBIwLru5KhsCq/cJcLLFEq9xOOBzQcHYm1YYW4O8tEAAy58Bg9MZ8qgDzNstreFTvyecAjHkT0qacLDCigr2m0bhnp/vQcUpkJ7R2V2PG09anEClbBkNzKqlX7pL5yMfPnwqZNkV1HdS/hYOCWDHJ/rXMk8cqXHayMMYWKMAc8+NQzCfslDl3LcAMeRVLooqqj+jC+kG+VZ4N0btuVyxB+oocXDRAJHKqoB3QCGwPeo54blygfJVeoLUE8Mpdtr4GfGmVmNKunLjBwdTup2McQd8cgKpJFZcR3m1ftUrKXGQGBG7286zTLsxKsMUDmYNuwjgBj65phNCmpXCi7umDqpZliA7p9z4V6appq/cKnOceRS86w4Cqpdfw+FG6dZWn8Ke9LOSM7FxtwemTSm+g+z3TRF94XhWHiOoqJTnjJJPhWepeWBaNWMJ3nG/4WEatBp0s0dnbxlW4JBII8fn1plb6dNr2mPql7M1vDA7Iqrbkhh5huh73X51UNjxPmRCF9qKstSurSSUWzBUmGDkA/wDDxSQjFSvIpLWTn8J/XwWC/wBIj0uwh1WwupGj3hB2mMscc9MZHX9PmqGpmS+ibUBvtTIHkjXu+HOPKhbu+urhTFLIzpgAbucex8KhgWOW4RJZGjU4UtjdiuntvdEJVtrtTwvA616+sLyeI2MK2wc8keAyRn964iu7jSbqS3sLpZFOGPBCsfI8+NAana24d2spGECBVHaHLE+OPTNRQtGkokJOcjFJbGAOs03JYfkKa5k2yyzY3Sck5zk+HFcXEglijZQQwbDHPWoDdlmkyoIPAPkK1mNxxKUU85x0pdtyDk27sNDjspDC+1pFCn0H/DQ8U5W45chBwpIwOKFaQwSAFldDyCDR4j+3IrsG2KO9gEgepptgBlpU4jue1uZAY8YUg8fOrLZz2ycxahbyuT3beOMqUHv0NVO0sICO829ffirBZZjCQxElAOAQMCjtsWiiy2N1wSY259KY3Kl7feY2zjqTk0qtCIkUYyTTLtZzESiO+PI4AqclkuhO5idGBRs+TDiq3qEVxG5MeE68jFWWd3BJZQp8c80i1J37xUsc9cU1hWJMStKJBFv55Y9KAtmnMhcRvjPVhj6CjZ5GClEPeB7xJGB7nwqBXvLldksW1Sf5hJxx5edTSt2ISWTVuXjdiBlyc7TRzTIZzvUKEx453VpEgiILd8KMkE+VBajcWZV2ZGTe3CRvwPep2UmFRur3D5Li1kt5iJZBcJIBHHjIYcZOelDPNbhuZAD5bc0FFfWC2giS1KHP32PLGuFNkwyQ4PkOapssGdl3II3MMhKdTkZNba7kOOFBYckDHStVleq2UvZAkrMyhmJJyeTWQMVkUisrKzMivsE3DuIEG4kE+JqNfuKelarKRjV/sdFjmsLkMQDjPWsrKUib3F4uzY9373zqBSVlCg8A1usorgPYxnJ3L4DyrtO8FzWVlPE4nhiQvgjPNNYZZIIT2LlCRg7fEeRrdZRGQXYIsuQQFx+XirHYokYARQOKysqcikR5bgLECB1rmZ22sQT1rKyovkqLpWJJNLbwA1lZTgE0qLEX2ADxpRPPNFbsVlY4PGTWVlAlIF+3Ttb53AHOMgULvPaEnkkE8+1brKaKQgYoXujaCHjGcihHhCsQGbA9a1WUEA//2Q==);
+    -webkit-background-clip:text;
+    height:30px;
+    position: absolute;
+    top:49%;
+    color:transparent;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: italic;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px 0px;
+    border-top: 5px dashed red;
+    border-bottom: 5px dashed red;
+}
+#Image-2,#Image-3,#Image-4,#Image-5{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+}
+#Image-2{
+    top:75%;
+    left: 15%;
+    border: 5px dashed red;
+}
+#Image-3{
+    top:60%;
+    left: 30%;
+    border: 5px dashed green;
+}
+#Image-4{
+    top:75%;
+    left:45%;
+    border:5px dashed blue;
+}
+#Image-5{
+    top:60%;
+    left:60%;
+    border:5px dashed brown;
+}
+#Thead-1{
+    background-color: red;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-1,#Input-2,#Input-3,#Input-4,#Input-5,#Input-6,#Input-7,#Input-8,#Input-9,#Input-10{
+    text-align:end;
+    margin-right: 5px;
+}
+#Tbody-1{
+    background-color: green;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-2{
+    width: 197px;
+}
+#Tbody-2{
+    background-color:blue;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-3{
+    width: 173px;
+}
+#Tbody-3{
+    background-color:brown;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-4{
+    width: 180px;
+}
+#Tfoot-1{
+    background-color: black;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Button-1{
+    padding: 10px 15px;
+}
+#P-1{
+    width: 100%;
+    background-color: green;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+    border-top: 5px dashed gold;
+    border-bottom: 5px dashed gold;
+}
+.Image{
+    width: 100px;
+    height: 150px;
+}
+.Td{
+    text-align: center;
+}
+#P-2{
+    width: 100%;
+    background-color:red;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+    border-top: 5px dashed gold;
+    border-bottom: 5px dashed gold;
+}
+#Button-2{
+    padding: 10px 15px;
+}
+#Marquee-1{
+    width: 100%;
+    background-color: red;
+    height: 50px;
+    line-height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: italic;
+    border-top: 5px dashed gold;
+    border-bottom: 5px dashed gold;
+    color: gold;
+}
+#Thead-2{
+    background-color: red;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-5{
+    width: 181px;
+}
+#Tbody-4{
+    background-color: green;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-7{
+    width: 195px;
+}
+#Tbody-5{
+    background-color:blue;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-8{
+    width:213px;
+}
+#Tbody-6{
+    background-color:brown;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-9{
+    width:196px;
+}
+#Tbody-7{
+    background-color:purple;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-10{
+    width:196px;
+}
+#Tfoot-2{
+    background-color:black;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Button-3{
+    padding: 10px 15px;
+}
+#Marquee-2{
+    width: 100%;
+    background-color:green;
+    height: 50px;
+    line-height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: italic;
+    border-top: 5px dashed gold;
+    border-bottom: 5px dashed gold;
+    color: gold;
+}
+#Div-1{
+    width: 1000px;
+    height: 205px;
+    border: 5px dashed black;
+    transform: translateY(15%);
+    display: flex;
+    flex-direction:row;
+}
+#P-3,#P-4,#P-5,#P-6,#P-7{
+    width: 200px;
+    height: 200px;
+}
+#P-3{
+    background-color: red;
+}
+#P-4{
+    background-color: green;
+}
+#P-5{
+    background-color:blue;
+}
+#P-6{
+    background-color:brown;
+}
+#P-7{
+    background-color:black;
+}
+#Textarea{
+    text-align: end;
+}
+#Button-4{
+    padding: 10px 15px;
+}
+@media only screen and (min-width:0px) and (max-width:480px){
+    span{
+        display: none;
+    }
+    aside{
+        float: right;
+        width: 100%;
+    }
+    a{
+       width: 75px;
+    }
+    main{
+        width: 100%;
+        position: relative;
+    }
+    article{
+        position: absolute;
+        left:5%;
+        width:400px;
+        height: 400px;
+    }
+    div{
+       line-height:40px;
+    }
+    #Table-1{
+        transform: translate(35%,180%);
+    }
+    #Button-1{
+        transform: translate(135%,578%);
+    }
+    #Table-2{
+        width: 100%;
+    }
+    .Image{
+        width: 88px;
+    }
+    #Button-2{
+        width: 100%;
+    }
+    #Table-3{
+        transform: translate(28%,128%);
+    }
+    #Button-3{
+        transform: translate(110%,490%);
+    }
+    #Div-1{
+        width: 100%;
+        height: 540px;
+        transform: translateY(8%);
+        display: flex;
+        flex-direction: column;
+        position:relative;
+    }
+    #P-3,#P-4,#P-5,#P-6,#P-7{
+        width: 100%;
+        height:70px;
+        position: absolute;
+    }
+    #P-3{
+       top: 0%;
+    }
+    #P-4{
+        top:20%;
+    }
+    #P-5{
+        top:40%;
+    }
+    #P-6{
+        top:60%;
+    }
+    #P-7{
+        top:80%;
+    }
+    #Input-11{
+        width: 100%;
+    }
+    #Table-4{
+        transform: translateY(100%);
+    }
+    #Button-4{
+        width:100%;
+        transform: translateY(475%);
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px) {
+    span{
+        width: 35%;
+        background-color: blue;
+        height: 110px;
+    }
+    #Image-0{
+        width: 60px;
+        border: 5px dashed red;
+        height: 100px;
+    }
+    #P-0{
+        font-size: large;
+    }
+    a{
+        width: 80px;
+    }
+    aside{
+        width:35%;
+        position: relative;
+    }
+    #Image-2{
+        position: absolute;
+        left:10%;
+    }
+    #Image-3{
+        position: absolute;
+        left:25%;
+    }
+    #Image-4{
+        position: absolute;
+        left:40%;
+    }
+    #Image-5{
+        position: absolute;
+        left:55%;
+    }
+    main{
+        width:65%;
+        position: relative;
+    }
+    article{
+        position: absolute;
+        left:4%;
+    }
+    #Table-1{
+        transform: translate(100%,183%);
+    }
+    #Button-1{
+        transform: translate(275%,577%);
+    }
+    #Table-2{
+        width: 100%;
+    }
+    .Image{
+        width:165px;
+    }
+    #Button-2{
+        width: 100%;
+    }
+    #Table-3{
+        transform: translate(90%,120%);
+    }
+    #Button-3{
+        transform: translate(240%,459%);
+    }
+    #Div-1{
+        width: 99%;
+    }
+    #P-3,#P-4,#P-5,#P-6,#P-7{
+        line-height:40px;
+    }
+    #Table-4{
+        width: 100%;
+    }
+    #Input-11{
+        width: 715px;
+        text-align: end;
+    }
+    #Button-4{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1279px) {
+    span{
+        background-color: brown;
+        width: 35%;
+    }
+    aside{
+        width: 35%;
+    }
+    main{
+        width: 65%;
+        position: relative;
+    }
+    article{
+        position: absolute;
+        left:25%;
+    }
+    #Table-1{
+        transform: translate(200%,180%);
+    }
+    #Button-1{
+        transform: translate(500%,576%);
+    }
+    #Table-2{
+        width: 100%;
+    }
+    .Image{
+        width: 295px;
+    }
+    #Button-2{
+        width: 100%;
+    }
+    #Table-3{
+        transform: translate(180%,130%);
+    }
+    #Button-3{
+        transform: translate(430%,489%);
+    }
+    #Div-1{
+        width:99%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #P-3,#P-4,#P-5,#P-6,#P-7{
+        width:253px;
+    }
+    #Table-4{
+        width: 100%;
+    }
+    textarea{
+        text-align: end;
+    }
+    #Input-11{
+        width: 1260px;
+        text-align: end;
+    }
+    #Button-4{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:1280px) {
+    span{
+        background-color: black;
+    }
+    nav{
+        background-color: blue;
+    }
+    #Table-1{
+        transform: translate(255%,180%);
+    }
+    #Button-1{
+        transform: translate(625%,570%);
+    }
+    #Table-2{
+        width: 100%;
+    }
+    .Image{
+        width: 358px;
+    }
+    #Button-2{
+        width: 100%;
+    }
+    #Table-3{
+        transform: translate(225%,130%);
+    }
+    #Button-3{
+        transform: translate(520%,485%);
+    }
+    #Div-1{
+        width: 99.5%;
+    }
+    #P-3,#P-4,#P-5,#P-6,#P-7{
+        width:330px;
+    }
+    #Table-4{
+        width: 100%;
+    }
+    textarea{
+        text-align: end;
+    }
+    #Input-11{
+        width: 1520px;
+        text-align: end;
+    }
+    #Button-4{
+        width: 100%;
+    }
+}
